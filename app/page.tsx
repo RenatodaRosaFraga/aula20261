@@ -30,12 +30,17 @@ export default function LandingPage() {
           </div>
 
           <div className="flex items-center gap-5">
-            <button className="text-sm font-bold text-slate-900 hover:opacity-70 transition-opacity">Login</button>
             <Link
-              href="/home"
+              href="/login"
+              className="text-sm font-bold text-slate-900 hover:opacity-70 transition-opacity"
+            >
+              Login
+            </Link>
+            <Link
+              href="/login"
               className="hidden rounded-full bg-slate-950 px-6 py-2.5 text-sm font-bold text-white transition-all hover:bg-slate-800 md:block shadow-lg shadow-slate-950/20 active:scale-95 text-center"
             >
-              Começar Agora 
+              Começar Agora
             </Link>
           </div>
         </div>
@@ -66,12 +71,13 @@ export default function LandingPage() {
 
               <div className="flex flex-col items-center gap-4 sm:flex-row lg:justify-start">
                 <button className="w-full rounded-2xl bg-slate-950 px-8 py-5 text-base font-black text-white transition-all hover:scale-[1.02] active:scale-[0.98] sm:w-auto shadow-2xl shadow-slate-950/30">
-                 <Link
-              href="/home"
-              className="hidden rounded-full bg-slate-950 px-6 py-2.5 text-sm font-bold text-white transition-all hover:bg-slate-800 md:block shadow-lg shadow-slate-950/20 active:scale-95 text-center"
-            >
-              Começar Agora - É gratis
-            </Link>
+                  <Link
+                    href="/login
+                    gi"
+                    className="hidden rounded-full bg-slate-950 px-6 py-2.5 text-sm font-bold text-white transition-all hover:bg-slate-800 md:block shadow-lg shadow-slate-950/20 active:scale-95 text-center"
+                  >
+                    Começar Agora - É gratis
+                  </Link>
                 </button>
                 <button className="group flex items-center gap-2 px-8 py-5 text-base font-bold text-slate-900">
                   Ver Demonstração
